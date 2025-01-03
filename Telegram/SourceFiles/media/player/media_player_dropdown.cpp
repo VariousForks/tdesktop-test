@@ -243,6 +243,26 @@ void FillSpeedMenu(
 			tr::lng_voice_speed_super_fast,
 			st.superFast,
 			st.superFastActive },
+		{
+			2.5,
+			tr::lng_voice_speed_super_fast_2_5,
+			st.superFast,
+			st.superFastActive },
+		{
+			3.0,
+			tr::lng_voice_speed_super_fast_3_0,
+			st.superFast,
+			st.superFastActive },
+		{
+			3.5,
+			tr::lng_voice_speed_super_fast_3_5,
+			st.superFast,
+			st.superFastActive },
+		{
+			4.0,
+			tr::lng_voice_speed_super_fast_4_0,
+			st.superFast,
+			st.superFastActive },
 	};
 	for (const auto &point : points) {
 		const auto speed = point.speed;
